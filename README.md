@@ -1,5 +1,6 @@
 Build: ![Gradle Build](https://github.com/Shuu2806/ClockSystem-TP3/actions/workflows/gradle.yml/badge.svg)
-Build: ![pmd](https://github.com/Shuu2806/ClockSystem-TP3/actions/workflows/pmd.yml/badge.svg)
+
+PMD: ![pmd](https://github.com/Shuu2806/ClockSystem-TP3/actions/workflows/pmd.yml/badge.svg)
 
 # ClockSystem
 

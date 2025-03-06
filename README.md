@@ -4,6 +4,10 @@ PMD: ![pmd](https://github.com/Shuu2806/ClockSystem-TP3/actions/workflows/pmd.ym
 
 CodeQL: ![CodeQL](https://github.com/Shuu2806/ClockSystem-TP3/actions/workflows/codeql.yml/badge.svg)
 
+OSSF: ![OSSF](https://github.com/Shuu2806/ClockSystem-TP3/actions/workflows/scorecard.yml/badge.svg)
+
+
+
 # ClockSystem
 
 This is a gradle-based Java project for a Clock with Swing GUI and JUnit5 unit tests. It has been created and used by Tom Mens for educational purposes at the University of Mons.

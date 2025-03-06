@@ -35,7 +35,7 @@ jobs:
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v3
       with:
-        languages: java
+        languages: ${{ matrix.language }}
         build-mode: ${{ matrix.build-mode }}
 
     - if: matrix.build-mode == 'manual'

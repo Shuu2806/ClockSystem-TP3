@@ -13,7 +13,7 @@ jobs:
       contents: read
 
     env:
-      DISPLAY: ":99.0"  # Set a display for Xvfb
+      DISPLAY: ":99.0"
 
     services:
       xvfb:
@@ -38,7 +38,7 @@ jobs:
         gradle-version: '8.10'
 
     - name: Build with Gradle 8.10
-      run: gradle build  # Use the Gradle wrapper
+      run: gradle build
 
     - name: Upload test Report & artifact
       uses: actions/upload-artifact@v4

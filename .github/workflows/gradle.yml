@@ -38,7 +38,7 @@ jobs:
         gradle-version: '8.10'
 
     - name: Build with Gradle 8.10
-      run: ./gradlew build  # Use the Gradle wrapper
+      run: gradle build  # Use the Gradle wrapper
 
     - name: Upload test Report & artifact
       uses: actions/upload-artifact@v4
